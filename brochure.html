@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="./img/logo/logo.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="css/styles.css">
+
+      <title>Brochure</title>
+   </head>
+   <body>
+
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <!-- AI <span>Bot</span> -->
+               <img src="./img/logo/logo.png" alt="Company Logo" style="height: 60px; width: 65px;">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item" style="padding-top: 15px;">
+                     <a href="/" class="nav__link">Home</a>
+                  </li>
+                  <li class="nav__item" style="padding-top: 15px;">
+                     <a href="#contact" class="nav__link">Franchise</a>
+                  </li>
+                  <li class="nav__item" style="padding-top: 15px;">
+                     <a href="#services" class="nav__link">Media <i class="ri-arrow-down-s-line"></i></a>
+                     <ul class="sub__menu nav__list fade" style="padding: 10px;">
+                        <li><a href="#media-category1" class="nav__link">Events</a></li>
+                        <li><a href="#media-category2" class="nav__link">News</a></li>
+                        <li><a href="#media-category2" class="nav__link">Gallery</a></li>
+                        <li><a href="#media-category2" class="nav__link">Testimonals</a></li>
+                        <!-- Add more categories as needed -->
+                     </ul>
+                  </li>
+                  <li class="nav__item" style="padding-top: 15px;">
+                     <a href="#projects" class="nav__link">Blog</a>
+                  </li>
+                  <li class="nav__item" style="padding-top: 15px;">
+                     <a href="#" class="nav__link active-link">About <i class="ri-arrow-down-s-line"></i></a>
+                     <ul class="sub__menu nav__list fade" style="padding: 10px;">
+                        <li><a href="#footer" class="nav__link">About Us</a></li>
+                        <li><a href="#media-category2" class="nav__link">Lab Setup</a></li>
+                        <li><a href="/app/brochure.html" class="nav__link">Brochure</a></li>
+                        <!-- Add more categories as needed -->
+                     </ul>
+                  </li>
+                  <li class="nav__item" style="padding-top: 8px;">
+                     <i class="uil uil-moon change-theme" id="theme-button" style="font-size: x-large;"></i>
+                  </li>
+                  <a href="https://cloudeducation.co.in/" class="nav__logo" target="_blank">
+                     <!-- AI <span>Bot</span> -->
+                     <img src="./img/logo/cloudlogo.png" alt="Company Logo" style="height: 50px; width: 50px;">
+                  </a>
+               </ul>
+               
+               <!-- Close Button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+            <!-- Toggle Button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+           </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <!-- <embed src="assets/BROCHURE.pdf" type="application/pdf" width="100%" height="600px" /> -->
+      <!-- <iframe src="assets/BROCHURE.pdf" width="100%" height="600px"></iframe> -->
+      <!--==================== CONTACT ====================-->
+      <main class="main">
+         <section>
+      <!-- <embed src="assets/BROCHURE.pdf" type="application/pdf" width="100%" height="1300px"/> -->
+      <iframe src="assets/BROCHURE.pdf" width="100%" height="1600px"></iframe>
+         </section>
+      <section class="contact section" id="contact">
+         <!-- <h3 class="section__subtitle">
+            Get In <span>Touch</span>
+         </h3>
+         <h2 class="section__title">
+            Contact Me
+         </h2> -->
+         <h1 class="footer__title" style="text-align: center;">
+            Contact <span>Us</span>
+         </h1>
+
+         <div class="contact__container container grid">
+            <form action="" class="contact__form" id="contact-form">
+               <div class="contact__group">
+                  <input type="text" name="user_name" placeholder="Enter Your Name" required class="contact__input">
+                  <input type="email" name="user_email" placeholder="Enter Your Email" required class="contact__input">
+               </div>
+               <textarea name="user_project" required placeholder="Enter Your Message"  class="contact__input"></textarea>
+               <p class="contact__message" id="contact-message"></p>
+               <button type="submit" class="button contact__button">
+                  Send Message
+               </button>
+            </form>
+         </div>
+      </section>
+   </main>
+
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer" id="footer">
+         <div class="footer__container container grid">
+            <div>
+               <h1 class="footer__title">
+                  AI <span>BO8</span>
+               </h1>
+
+               <h2 class="footer__education">
+                  by <span>Cloud Education</span>
+               </h2>
+            </div>
+            <div class="footer__social">
+               <a href="" target="_blank" class="footer__social-link">
+                  <i class="ri-facebook-circle-line"></i>
+               </a>
+               <a href="" target="_blank" class="footer__social-link">
+                  <i class="ri-instagram-line"></i>
+               </a>
+               <a href="" target="_blank" class="footer__social-link">
+                  <i class="ri-twitter-line"></i>
+               </a>
+            </div>
+            <span class="footer__copy">
+               &#169; Copyright Kaal Bhairav. All rights reserved
+            </span>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="https://web.whatsapp.com/send?phone=919354844232&text=Hey AI-BO8! 👋 %0A%0A I'm interested in the robotics lab services that you are offering.Could you please provide me with more detailed information about it? %0A%0A Thank you!" class="scrollup" id="scroll-up" target="_blank">
+         <!-- <i class="ri-arrow-up-line"></i> -->
+         <!-- <i class="ri-whatsapp-line whatsapp__icon"></i> -->
+         <i class="ri-whatsapp-fill whatsapp__icon"></i>
+      </a>
+
+      <!--=============== Typed Js ===============-->
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+         var typed = new Typed(".auto__type", {
+            strings: ["AI-Based Robotics", "Robotics by Cloud Education",], // Array of phrases to cycle through
+               typeSpeed: 150, // typing speed in milliseconds
+               backSpeed: 150,
+               loop: true
+         });
+      </script>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="js/scrollreveal.min.js"></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="js/main.js"></script>
+      
+   </body>
+</html>
